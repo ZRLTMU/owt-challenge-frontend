@@ -1,0 +1,52 @@
+.boatImg{
+    width: 200px;
+    height: 200px;
+}
+
+.boatDiv{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border-color: #1e2635;
+    border-width: 3px;
+    border-style: inset;
+    border-radius: 100vmax;
+}
+
+.boatName{
+    width: 80px;
+    position: absolute;
+    left: 85px;
+}
+
+.deleteButton{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.editButton{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.editButton, .deleteButton{
+    background-color: #e41919;
+    color: white;
+    border-radius: 100vmax;
+    border: none;
+    height: 25px;
+    width: 45px;
+}
+
+button:hover{
+    transform: translateY(-5px);
+}
+
+body{
+    background-color: #1e2635;
+}

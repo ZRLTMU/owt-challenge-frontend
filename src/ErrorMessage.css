@@ -1,0 +1,21 @@
+.errorMessage{
+    float: left;
+  }
+  
+.errorDiv{
+    background-color: #e41919;
+    border-radius: 5px;
+    color: #fff;
+    left: 43%;
+    padding: 10px;
+    margin: 0 auto;
+    width: 313px;
+    height: 36px;
+}
+
+.errorButton{
+    float: right;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
